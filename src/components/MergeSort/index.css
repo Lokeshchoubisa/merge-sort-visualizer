@@ -1,0 +1,65 @@
+.value
+{
+    background-color: brown;
+    margin: 1rem;
+    /* height: 500px; */
+    width: 20px;
+
+    border: 1px solid black;
+    /* position: absolute; */
+    /* left: 20rem; */
+    /* height: 188px; */
+    display: inline-block;
+    background: #343a40;
+    color: white;
+    transform: rotateZ(
+180deg
+);
+
+}
+.app
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.graph
+{
+    padding: 2rem;
+    /* margin-bottom: 6rem; */
+    justify-content: center;
+    /* border: 2px solid; */
+    border-top: 2px solid;
+    height: 56vh;
+    /* position: relative; */
+    transform: rotateZ(
+        180deg
+        );
+    overflow: scroll;
+    display: flex;
+}
+.submit
+{
+    width: fit-content;
+    margin: auto;
+    margin-top: .5rem;
+    /* margin-bottom: ; */
+    padding: 0.3rem 1.5rem;
+    background: #3f3737;
+    color: white;
+    background: transparent;
+    color: black;
+    border-radius: 20px;
+
+}
+.array
+{
+    width:30vw;
+    margin: auto;
+    margin-top: 2rem;
+    border: 1px solid;
+    margin-bottom: 0;
+    /* margin-bottom: ; */
+}
